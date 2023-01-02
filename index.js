@@ -17,5 +17,5 @@ window.addEventListener("mousemove",(e)=>{
         convert*=-1;
     }
 
-    img.style.filter=brightness(convert);
+    img.style.filter=`brightness(${convert}%)`;
 });
