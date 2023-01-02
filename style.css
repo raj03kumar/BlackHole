@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    background-color: rgba(22,37,40,255);
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter:brightness(10%);
+}
